@@ -9,5 +9,5 @@ cd ruby-2.2.4/
 make
 make install
 gem update --system
-gem install bundler
+gem install bundler --no-ri --no-rdoc
 ruby -v
